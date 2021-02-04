@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Arron McCrory Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link type="text/css" rel="stylesheet" href="/assets/css/glightbox.min.css"/>
+    <script src="/assets/js/glightbox.min.js" ></script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+      body {
+        background-color: #fdfaed;
+      }
+
+      .container {
+        font-family: 'Montserrat', sans-serif;
+
+        width: 60em;
+        max-width: 95%;
+        margin: auto;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      {{ content | safe }}
+    </div>
+  </body>
+
+</html>
